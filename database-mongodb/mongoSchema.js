@@ -1,4 +1,4 @@
-const { db } = require('../database-mongodb/index');
+// const { db } = require('../database-mongodb/index');
 
 db.createCollection("products", {
     validator: {

@@ -1,30 +1,18 @@
-# Project Nyke
+# System-Design | Nyke
 
-> Project description
-
-## Related Projects
-
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+> Production level scaling of a Nyke Replica (Review Section)
 
 ## Table of Contents
 
-1. [Usage](#Usage)
 1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> Some usage instructions
+2. [Development](#development)
+3. [Contact](#contact)
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
 - Node 6.13.0
-- etc
+- MongoDB
+- PostgreSQL
 
 ## Development
 
@@ -32,8 +20,13 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 From within the root directory:
 
-```sh
-npm install -g webpack
-npm install
+```
+run command: npm i
+run command: npm run mongoSeed ( Generates 100 million unique reviews for 10 million unique products ) 
+run command: npm run build
+run command: npm start
 ```
 
+## Contact
+
+If you want to contact me you can reach me at cbvargas123@gmail.com.
